@@ -25,7 +25,25 @@ settings():
 # - High health
 # - Shotguns with low recoil that will take down an opponent in 1-2 shots. Especially as you do not need to have precise aim to do this.
 # 	* Azami's shotgun does not count as this.
+# - Traps and claymores are favorable. 
+# 
+# Requires:
+# - shoot to be J keybind
+# - aim to be K keybind
+# 
+# Add a way to say a disclaimer to teammates:
+# 
+# NEED TO MAKE DISCLAIMER FASTER TO TYPE
+# need to make barricade have a timer b4 it stops so I dont have to say stop barricade
 # ==============================
+# Disclaimer to players
+disclaimer:
+	key(y)
+	"Fair warning I'm going to suck b/c I'm playing by voice commands not keyboard."
+	key(enter)
+	key(y)
+	"Also I have to toggle fire so if I'm firing do not walk in front of me"
+	key(enter)
 
 # Movement Voice Commands
 walk: key(w:down)
@@ -54,36 +72,57 @@ lean right | rean: key(e)
 # Gun and Misc Changing
 primary: key(1)
 secondary: key(2) 
-press F | F: key(f)
-press G | G: key(g)
+press F: key(f)
+press G: key(g)
 drone | 6: key(6)
 drop diffuser: key(z)
 
 # Actions
-climb | vault | rappel: key(space)
+jump | climb: key(space)
+climb in | climb up | stop climb | stimb:
+	key(space:down)
+	sleep(2s)
+	key(space:up)
+
+hold f | barricade: 
+	key(f:down)
+	sleep(4)
+	key(f:up)
+
+release f | stop f | stop barricade: key(f:up)
+
 view cameras | cameras: key(5)
 reload: key(r)
 mid click | middle click | special ability | ability | ility:
     mouse_click(2)
 knife | stab | dagger: key(v)
 
+scan: key(x:down)
+stop scan | stan: key(x:up)
+
 # Shooting / Aiming:
 # - L/R Mouse click interactions do not work.
 # - Requires fire key be "J" and aim key be "K"
 # - Should not flag anti-cheat because it does not change the game it only simulates keyboard strokes. However, I cannot be sure so anyone using this should not hold me responsible for their account getting banned. It is recommended to only do this on an alt account. 
 
-fire: key(j:down)
+auto fire | a fire: key(j:down)
 stop fire | stire: key(j:up)
-single fire | sire: key(j)
-single fire two | sire two | siwo:
+fire | single fire | sire | si: key(j)
+fire two | single fire two | sire two | siwo:
 	key(j)
+	repeat(1)
+fire three | single fire three | sire three | sithree:
 	key(j)
-single fire three | sire three | sithree:
-	key(j)
-	key(j)
-	key(j)
+	repeat(2)
 aim: key(k:down)
 stop aim | staim: key(k:up)
+
+timed fire:  
+	key(k:down)
+	key(j:down)
+	sleep(3s)
+	key(j:up)
+	key(k)
 
 # Arrow Keys (for interacting with GUIs)
 arrow right | arright: key(right)

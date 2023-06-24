@@ -1,0 +1,72 @@
+# LIST OF CMDS AND ALIASES:
+# Disclaimer to players
+disclaimer
+
+# Movement Voice Commands
+walk
+stop walk | stalk
+	
+sprint
+stop sprint | stint
+	
+retreat
+stop retreat | streat
+
+go left
+stop left | steft
+	
+go right
+stop right | stight
+
+# Positions (say them again to undo them)
+crouch 
+lay
+lean left | lean
+lean right | rean
+
+# Gun and Misc Changing
+primary
+secondary
+press F | F
+press G | G
+drone | 6
+drop diffuser
+
+# Actions
+jump | climb
+climb in | climb up | stop climb | stimb
+
+hold f | barricade
+release f | stop f | stop barricade
+
+view cameras | cameras
+reload
+mid click | middle click | special ability | ability | ility
+knife | stab | dagger
+
+scan
+stop scan | stan
+
+# Shooting / Aiming: 
+timed fire
+auto fire | a fire
+stop fire | stire
+fire | single fire | sire | si
+fire two | single fire two | sire two | si two
+fire three | single fire three | gg | si three
+aim
+stop aim | staim
+
+# Arrow Keys (for interacting with GUIs)
+arrow right | arright
+arrow left | arreft
+arrow up | arrup
+arrow down | ardown
+enter
+escape | esc | close
+stop move | stop movement | stoove
+reset keys | reset
+	
+# Simple keys example with repeat
+#walk [<user.n20>]: key("W:{n20 or 1}")
+#walk [<user.n20>]: key("W:{n20 or 1}")
