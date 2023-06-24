@@ -1,5 +1,19 @@
+# File Name: rainbow_six_siege.talon
+# Version: 0.0.3
+# Author: Tom W.
+
 title: Rainbow Six
 -
+
+# Disclaimer to players
+disclaimer:
+	key(y)
+	"FYI I'm going to suck b/c I'm learning to play by voice commands not keyboard."
+	key(enter)
+	key(y)
+	"I also won't hear anyone's vc."
+	key(enter)
+
 
 # key_wait increases the delay when pressing keys (milliseconds)
 # this is useful if an app seems to jumble or drop keys
@@ -36,15 +50,6 @@ settings():
 # NEED TO MAKE DISCLAIMER FASTER TO TYPE
 # need to make barricade have a timer b4 it stops so I dont have to say stop barricade
 # ==============================
-# Disclaimer to players
-disclaimer:
-	key(y)
-	"Fair warning I'm going to suck b/c I'm playing by voice commands not keyboard."
-	key(enter)
-	key(y)
-	"Also I have to toggle fire so if I'm firing do not walk in front of me"
-	key(enter)
-
 # Movement Voice Commands
 walk: key(w:down)
 stop walk | stalk: key(w:up)
@@ -105,30 +110,41 @@ stop scan | stan: key(x:up)
 # - Requires fire key be "J" and aim key be "K"
 # - Should not flag anti-cheat because it does not change the game it only simulates keyboard strokes. However, I cannot be sure so anyone using this should not hold me responsible for their account getting banned. It is recommended to only do this on an alt account. 
 
-auto fire | a fire: key(j:down)
-stop fire | stire: key(j:up)
-fire | single fire | sire | si: key(j)
-fire two | single fire two | sire two | siwo:
-	key(j)
-	repeat(1)
-fire three | single fire three | sire three | sithree:
-	key(j)
-	repeat(2)
 aim: key(k:down)
 stop aim | staim: key(k:up)
 
-timed fire:  
+# Semi-Automatic Gun Firing (Sire/Si)
+fire | single fire | sire | si: key(j)
+single fire two | sire two | si two: key(j j)
+single fire three | sire three | si three: key(j j j)
+single fire four | sire four | si four: key(j j j)
+
+# Fire an automatic gun for a quick period of time
+quick fire | quick:  
+	key(k:down)
+	key(j:down)
+	sleep(1s)
+	key(j:up)
+
+# Fire an automatic gun for a short period of time
+short fire | short:  
+	key(k:down)
+	key(j:down)
+	sleep(2s)
+	key(j:up)
+
+# Fire an automatic gun for a longer period of time
+long fire | long:  
 	key(k:down)
 	key(j:down)
 	sleep(3s)
 	key(j:up)
-	key(k)
 
 # Arrow Keys (for interacting with GUIs)
-arrow right | arright: key(right)
-arrow left | arreft: key(left)
-arrow up | arrup: key(up)
-arrow down | ardown: key(down)
+arrow right | ar right: key(right)
+arrow left | ar reft: key(left)
+arrow up | ar up: key(up)
+arrow down | ar down: key(down)
 enter: key(enter)
 escape | esc | close: key(escape)
 

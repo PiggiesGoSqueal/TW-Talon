@@ -1,3 +1,7 @@
+# File Name: R6S-List-of-Cmds
+# Matches R6S Talon File: 0.0.3
+# Author: Tom W.
+
 # LIST OF CMDS AND ALIASES:
 # Disclaimer to players
 disclaimer
@@ -27,8 +31,8 @@ lean right | rean
 # Gun and Misc Changing
 primary
 secondary
-press F | F
-press G | G
+press F
+press G
 drone | 6
 drop diffuser
 
@@ -47,15 +51,18 @@ knife | stab | dagger
 scan
 stop scan | stan
 
-# Shooting / Aiming: 
-timed fire
-auto fire | a fire
-stop fire | stire
-fire | single fire | sire | si
-fire two | single fire two | sire two | si two
-fire three | single fire three | gg | si three
+# Gun Related
 aim
 stop aim | staim
+# - Semi-Automatic Gun Firing (Sire/Si)
+fire | single fire | sire | si
+single fire two | sire two | si two
+single fire three | gg | si three
+
+# Fire an automatic gun for diff periods of time
+quick fire | quick
+short fire | short
+long fire | long
 
 # Arrow Keys (for interacting with GUIs)
 arrow right | arright
