@@ -1,13 +1,10 @@
-# activate this .talon file if the current app name is "Chrome"
-# you can find app names by running ui.apps() in the REPL
-#app.name: RainbowSix
 title: Rainbow Six
 -
 
 # key_wait increases the delay when pressing keys (milliseconds)
 # this is useful if an app seems to jumble or drop keys
 settings():
-	key_hold = 75.0
+	key_hold = 200.0
     key_wait = 100.0
 
 # ==============================
@@ -22,6 +19,12 @@ settings():
 #   and most importantly may flag the anti-cheat although
 #   it's not an aim bot it just fires.. So idk. Plus click speed
 #   does not change fire speed unless it's a single fire gun but I cannot speak fast enough (& have the program load fast enough) for it to be unfair for others so I should be fine.
+#
+# Best Ops For Voice Cmds:
+# - Ops with high amounts of ammo and ideally less recoil.
+# - High health
+# - Shotguns with low recoil that will take down an opponent in 1-2 shots. Especially as you do not need to have precise aim to do this.
+# 	* Azami's shotgun does not count as this.
 # ==============================
 
 # Movement Voice Commands
@@ -59,15 +62,37 @@ drop diffuser: key(z)
 # Actions
 climb | vault | rappel: key(space)
 view cameras | cameras: key(5)
+reload: key(r)
+mid click | middle click | special ability | ability | ility:
+    mouse_click(2)
+knife | stab | dagger: key(v)
 
-# Requires fire key be "J" and aim key be "K"
-# Mouse key interactions do not work.
-# Noteworthy may not be worth doing fire automations 
-# with mouse as it may incorrectly flag anti-cheat (unless single fire and not too quickly repeated).
+# Shooting / Aiming:
+# - L/R Mouse click interactions do not work.
+# - Requires fire key be "J" and aim key be "K"
+# - Should not flag anti-cheat because it does not change the game it only simulates keyboard strokes. However, I cannot be sure so anyone using this should not hold me responsible for their account getting banned. It is recommended to only do this on an alt account. 
+
 fire: key(j:down)
 stop fire | stire: key(j:up)
 single fire | sire: key(j)
+single fire two | sire two | siwo:
+	key(j)
+	key(j)
+single fire three | sire three | sithree:
+	key(j)
+	key(j)
+	key(j)
 aim: key(k:down)
+stop aim | staim: key(k:up)
+
+# Arrow Keys (for interacting with GUIs)
+arrow right | arright: key(right)
+arrow left | arreft: key(left)
+arrow up | arrup: key(up)
+arrow down | ardown: key(down)
+enter: key(enter)
+escape | esc | close: key(escape)
+
 # Stop all movement
 stop move | stop movement | stoove:
 	key(w:up)
@@ -77,17 +102,6 @@ stop move | stop movement | stoove:
 	key(shift:up)
 	key(q)
 	key(e)
-stop aim | staim: key(k:up)
-knife | stab | dagger: key(v)
-# Walk backwards toggle
-#back: key(s)
-#stop back: key(s)
-
-# Misc
-reload: key(r)
-
-mid click | middle click | special ability | ability:
-    mouse_click(2)
 
 reset keys | reset:
 	key(w:up)
@@ -111,6 +125,8 @@ reset keys | reset:
 	key(t:up)
 	key(r:up)
 	key(e:up)
+	key(j:up)
+	key(k:up)
 	
 # Simple keys example with repeat
 #walk [<user.n20>]: key("W:{n20 or 1}")
