@@ -27,7 +27,7 @@ Steps:
 
 7. Re-open talon by searching for it in the Windows search bar. 
 
-8. In File Explorer go to the folder path where "TW-Talon/apps/games/Rainbow-Six-Siege" exists. Then view "R6S-List-of-Cmds.txt" for a list of voice commands (& their aliases) that exist once Rainbow Six Siege is open. Note this does not work on R6S Vulkan unless you change the title name in each of the files.
+8. In File Explorer go to the folder path where "TW-Talon/apps/games/Rainbow-Six-Siege" exists. Then view "R6S-Command-List.txt" for a list of voice commands (& their aliases) that exist once Rainbow Six Siege is open. Note this does not work on R6S Vulkan unless you change the title name in each of the files.
 
 Requirements for Rainbow Six Siege Controls:
  - shoot to be J keybind
