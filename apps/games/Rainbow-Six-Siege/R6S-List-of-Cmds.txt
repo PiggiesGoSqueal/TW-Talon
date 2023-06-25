@@ -1,7 +1,9 @@
 # File Name: R6S-List-of-Cmds
-# Matches R6S Talon File: 0.0.3
 # Author: Tom W.
 
+IMPROVEMENTS:
+	- Once I get used to voice cmds switch to using left hand for mouse and change sensitivity as needed.
+	- Maybe add pop/hiss features for clicking in general- not for R6S but for all PC usage. And could add head(?) tracking if possible instead of eye tracking.
 # -------------------------
 # FILE: rainbow_chat.talon
 # Version: 0.0.1
@@ -13,10 +15,12 @@ send explanation			# Carpal tunnel
 send keyboard explanation	# Preset explanations
 
 # -------------------------
-# FILE: rainbow_voice.talon
-# Version: 
+# DIRECTORY: knausj_talon
+# Version: Unknown
 # -------------------------
-
+talon sleep 		# Is quick to respond. Can use
+talon wake			# to speak in VC w/o talon
+					# misunderstanding.
 
 # -------------------------
 # FILE: rainbow_movement.talon
