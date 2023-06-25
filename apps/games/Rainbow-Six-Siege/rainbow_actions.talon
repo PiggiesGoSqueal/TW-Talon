@@ -27,7 +27,7 @@ drop diffuser: key(z)
 reload: key(r)
 
 # NEED TO TEST. In Controls I set the middle click to work and '3' to be its alias. May make it more reliable.
-mid click | middle click | ability | ility:
+mid click | middle click | ability | lity:
     #mouse_click(2)
 	key(3)
 	
