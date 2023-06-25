@@ -12,13 +12,17 @@ send explanation			# Carpal tunnel
 send keyboard explanation	# Preset explanations
 
 # -------------------------
-# DIRECTORY: knausj_talon
+# DIRECTORY: TW-talon\some_knausj_talon_code
 # Version: Unknown
 # -------------------------
 talon sleep 		# Is quick to respond. Can use
 talon wake			# to speak in VC w/o talon
 					# misunderstanding.
-
+dictation mode		# Switch Talon to recognize words
+					# as text instead of voice cmds.
+					# (AKA "dictation mode")
+command mode		# Switch talon to "command mode".
+					
 # -------------------------
 # FILE: rainbow_movement.talon
 # Version: 0.1.0
