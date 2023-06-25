@@ -18,15 +18,7 @@
  - Traps and claymores are favorable. 
  
  Requires:
- - shoot to be J keybind
- - aim to be K keybind
- - special ability controls (among other things?):
-	* primary gadget (normally middle click) should be set to middle click & 3 keybind.
-	* secondary gadget (normally 3 & G) should be set to 4 & G.  
-	* Used in rainbow_op_procedures.talon for example.
- - observation tool controls section:
-	* shoot: N 
-	* primary action: M 
+	- See README.md for R6S requirements (controls)
 	
  - Recommended to use earbuds. Else disable hearing voice chat.
 
