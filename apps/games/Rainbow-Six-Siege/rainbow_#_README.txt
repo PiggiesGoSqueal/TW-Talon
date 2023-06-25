@@ -40,3 +40,13 @@
 	- Once I get used to voice cmds switch to using left hand for mouse and change sensitivity as needed.
 	
 	- Maybe add pop/hiss features for clicking in general- not for R6S but for all PC usage. And could add head(?) tracking if possible instead of eye tracking.
+	
+	- Update README.md for instructions for people who want to do this for R6S.
+	
+	- Once I get pretty good: 
+		* Buy a good camera/mic pair for PC.
+		* Then record myself playing R6S with my voice. 
+		* Have 1 video showcasing it with video cut up to show successes rather than just a 30 min straight video. 
+		* Have another video showing how to get Talon Voice set up & how to use my scripts.
+		* Make a new YT acc for this and maybe a tiktok to try to make $ from it?
+		* That said, several ppl have tried this and they didn't get many views..
