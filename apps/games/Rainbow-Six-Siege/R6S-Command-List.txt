@@ -70,29 +70,18 @@ drop diffuser
 jump | climb
 climb in | climb up | stop climb | stimb
 
-hold f | barricade
+hold f | barricade # Holds for X sec.
 release f | stop f | stop barricade
 
-view cameras | cameras
 reload
 mid click | middle click | ability | lity
 knife | stab | dagger
-
-jump | climb in
-climb | climb up | stop climb | stimb
-
-holf f | barricade | reinforce # Holds for X sec.
-release f # Just in case.
 
 # Intel Gathering
 view cameras | cameras
 yellow ping | ping
 scan # Scan for operators (aka red ping)
 stop scan | stan
-
-stop move | stop movement | stoove
-reset keys | reset
-
 # -------------------------
 # FILE: rainbow_firing.talon
 # Version: 0.0.1
