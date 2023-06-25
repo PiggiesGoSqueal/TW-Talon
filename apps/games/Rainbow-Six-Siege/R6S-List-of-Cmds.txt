@@ -1,9 +1,6 @@
 # File Name: R6S-List-of-Cmds
 # Author: Tom W.
 
-IMPROVEMENTS:
-	- Once I get used to voice cmds switch to using left hand for mouse and change sensitivity as needed.
-	- Maybe add pop/hiss features for clicking in general- not for R6S but for all PC usage. And could add head(?) tracking if possible instead of eye tracking.
 # -------------------------
 # FILE: rainbow_chat.talon
 # Version: 0.0.1
@@ -74,7 +71,7 @@ release f | stop f | stop barricade
 
 view cameras | cameras
 reload
-mid click | middle click | ability | ility
+mid click | middle click | ability | lity
 knife | stab | dagger
 
 jump | climb in

@@ -31,7 +31,12 @@
  - Recommended to use earbuds. Else disable hearing voice chat.
 
  Improvements needed:
- - make a way for talon to sleep but just long enough for me to say something in vc. I.e. "ignore <msg> awake" will sleep, allow me to speak, then bring it awake again.
- - Have a "required_keybinds.txt" file logging all required keys to make it work & what is NOT default. That way if they get reset I can fix it without extensively looking thru all my code.
+	- make a way for talon to sleep but just long enough for me to say something in vc. I.e. "ignore <msg> awake" will sleep, allow me to speak, then bring it awake again.
+ 
+	- Have a "required_keybinds.txt" file logging all required keys to make it work & what is NOT default. That way if they get reset I can fix it without extensively looking thru all my code.
 	* Note: It appears in the Controls settings there are diff sections and you CAN overlap keybinds as long as they're in diff sections I think.
 	* Note: it is possible to assign 2 keys per control. However, it's generally best to leave it to 1 key (I.e. to not allow mouse to shoot/aim) so that I rely fully on voice commands instead of using my hands)
+
+	- Once I get used to voice cmds switch to using left hand for mouse and change sensitivity as needed.
+	
+	- Maybe add pop/hiss features for clicking in general- not for R6S but for all PC usage. And could add head(?) tracking if possible instead of eye tracking.
