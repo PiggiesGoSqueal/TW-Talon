@@ -1,0 +1,126 @@
+# File Name: R6S-List-of-Cmds
+# Matches R6S Talon File: 0.0.3
+# Author: Tom W.
+
+# -------------------------
+# FILE: rainbow_chat.talon
+# Version: 0.0.1
+# -------------------------
+send <phrase> end			# Be sure to specify "end"
+send disclaimer				# Voice cmds
+send disclaimer two			# Toggle shooting
+send explanation			# Carpal tunnel
+send keyboard explanation	# Preset explanations
+
+# -------------------------
+# FILE: rainbow_voice.talon
+# Version: 
+# -------------------------
+
+
+# -------------------------
+# FILE: rainbow_movement.talon
+# Version: 0.1.0
+# -------------------------
+# Movement Voice Commands
+walk
+stop walk | stalk
+	
+sprint
+stop sprint | stint
+	
+retreat
+stop retreat | streat
+
+go left | geft
+stop left | steft
+	
+go right | gight
+stop right | stight
+
+# Positions (say them again to undo them)
+crouch 
+lay
+lean left | lean
+lean right | rean
+
+# Undo commands
+stop move | stop movement | stoove
+reset keys | reset
+
+# -------------------------
+# FILE: rainbow_actions.talon
+# Version: 0.0.1
+# -------------------------
+# Gun and Misc Changing
+primary
+secondary
+press F
+press G
+drone
+diffuse
+drop diffuser
+
+# Actions
+jump | climb
+climb in | climb up | stop climb | stimb
+
+hold f | barricade
+release f | stop f | stop barricade
+
+view cameras | cameras
+reload
+mid click | middle click | ability | ility
+knife | stab | dagger
+
+jump | climb in
+climb | climb up | stop climb | stimb
+
+holf f | barricade | reinforce # Holds for X sec.
+release f # Just in case.
+
+# Intel Gathering
+view cameras | cameras
+yellow ping | ping
+scan # Scan for operators (aka red ping)
+stop scan | stan
+
+stop move | stop movement | stoove
+reset keys | reset
+
+# -------------------------
+# FILE: rainbow_firing.talon
+# Version: 0.0.1
+# -------------------------
+aim
+stop aim | staim
+
+# - Semi-Automatic Gun Firing (Sire/Si)
+fire | single fire | sire | si
+single fire two | sire two | si two
+single fire three | sire three | si three
+single fire four | sire four | si four
+
+# Fire an automatic gun for diff periods of time
+quick fire | quick
+short fire | short
+long fire | long
+
+# -------------------------
+# FILE: rainbow_gui.talon
+# Version: 
+# -------------------------
+# Arrow Keys (for interacting with GUIs)
+arrow right | arright
+arrow left | arreft
+arrow up | arrup
+arrow down | ardown
+
+enter
+escape | esc | close
+
+# -------------------------
+# FILE: rainbow_op_procedures.talon
+# Version: 0.0.1
+# -------------------------
+place shield # (NEED TO TEST)
