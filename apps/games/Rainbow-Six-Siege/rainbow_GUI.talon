@@ -17,4 +17,4 @@ arrow up | ar up: key(up)
 arrow down | ar down: key(down)
 
 enter: key(enter)
-escape | esc | close: key(escape)
+escape: key(escape)
