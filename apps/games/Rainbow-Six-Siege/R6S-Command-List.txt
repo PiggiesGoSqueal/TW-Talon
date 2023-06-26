@@ -5,6 +5,8 @@
 # FILE: rainbow_chat.talon
 # Version: 0.0.1
 # -------------------------
+# FOR NOW THESE ARE BASICALLY USELESS.
+# Typing is way too slow. 
 send <phrase> end			# Be sure to specify "end"
 send disclaimer				# Voice cmds
 send disclaimer two			# Toggle shooting
@@ -20,6 +22,7 @@ talon wake			# to speak in VC w/o talon
 					# misunderstanding.
 dictation mode		# Switch Talon to recognize words
 					# as text instead of voice cmds.
+					# Does not work for R6S chat.
 					# (AKA "dictation mode")
 command mode		# Switch talon to "command mode".
 					
@@ -74,6 +77,7 @@ hold f | barricade # Holds for X sec.
 release f | stop f | stop barricade
 
 reload
+revive
 mid click | middle click | ability | lity
 knife | stab | dagger
 
