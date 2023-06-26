@@ -50,5 +50,7 @@ release f: key(f:up)
 # Intel Gathering
 view cameras | cameras: key(5)
 yellow ping | ping: key(z)
-scan: key(x:down)
-stop scan | stan: key(x:up)
+scan: 
+	key(x:down)
+	sleep(4s)
+	key(x:up)
