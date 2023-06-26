@@ -14,7 +14,10 @@ settings():
 # Maybe just enable voice to text accessibility feature?
 
 # FOR SOME REASON CHAT IS STILL SUPER SLOW TO TYPE.
-
+# FOR NOW JUST DO:
+# "talon sleep"
+# then say what I want in vc to disclaim etc.
+# then "talon wake"
 
 # Send in chat <phrase>
 # Note: Punctuation/capitalization does not work.
