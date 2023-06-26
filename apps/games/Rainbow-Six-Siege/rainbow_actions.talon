@@ -45,6 +45,12 @@ hold f | barricade | reinforce:
 	sleep(5)
 	key(f:up)
 
+# Rook armor revive
+revive: 
+	key(f:down)
+	sleep(7)
+	key(f:up)
+
 release f: key(f:up)
 
 # Intel Gathering
@@ -52,5 +58,5 @@ view cameras | cameras: key(5)
 yellow ping | ping: key(z)
 scan: 
 	key(x:down)
-	sleep(4s)
+	sleep(2s)
 	key(x:up)
