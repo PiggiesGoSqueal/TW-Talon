@@ -10,6 +10,11 @@ title: Rainbow Six
 settings():
 	key_hold = 16.0
     key_wait = 8.0
+# SPEED IS UNRELATED TO THIS
+# Maybe just enable voice to text accessibility feature?
+
+# FOR SOME REASON CHAT IS STILL SUPER SLOW TO TYPE.
+
 
 # Send in chat <phrase>
 # Note: Punctuation/capitalization does not work.
@@ -18,7 +23,7 @@ settings():
     insert("{phrase}")
     key(enter)
 
-send disclaimer:
+send disclaimer | disclaimer:
 	key(y)
 	"Fyi I'm going to suck b/c I'm learning to play by voice commands not keyboard."
 	key(enter)
