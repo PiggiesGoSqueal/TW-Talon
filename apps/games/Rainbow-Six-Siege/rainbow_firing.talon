@@ -1,6 +1,6 @@
 # File Name: rainbow_firing.talon
 # Game: Rainbow Six Siege
-# Version: 0.0.1
+# Version: 0.0.2
 # Author: Tom W.
 
 title: Rainbow Six
@@ -17,13 +17,15 @@ settings():
 # - Should not flag anti-cheat because it does not change the game it only simulates keyboard strokes. However, I cannot be sure so anyone using this should not hold me responsible for their account getting banned. It is recommended to only do this on an alt account. 
 
 aim: key(k:down)
-stop aim | staim: key(k:up)
 
-# Semi-Automatic Gun Firing (Sire/Si)
-fire | single fire | sire | si: key(j)
-single fire two | sire two | si two: key(j j)
-single fire three | sire three | si three: key(j j j)
-single fire four | sire four | si four: key(j j j j)
+# stop aim
+staim: key(k:up)
+
+# Single-Fire Gun Firing (Sire/Si)
+sire | si: key(j)
+sire two | si two: key(j j)
+sire three | si three: key(j j j)
+sire four | si four: key(j j j j)
 
 # Fire an automatic gun for a quick period of time
 quick fire | quick:  
@@ -33,7 +35,7 @@ quick fire | quick:
 	key(j:up)
 
 # Fire an automatic gun for a short period of time
-short fire | short:  
+fire | short fire | short:  
 	key(k:down)
 	key(j:down)
 	sleep(2s)

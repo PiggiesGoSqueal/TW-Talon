@@ -1,124 +1,114 @@
 # File Name: R6S-List-of-Cmds
 # Author: Tom W.
-
-# -------------------------
-# FILE: rainbow_chat.talon
-# Version: 0.0.1
-# -------------------------
-# FOR NOW THESE ARE BASICALLY USELESS.
-# Typing is way too slow. 
-send <phrase> end			# Be sure to specify "end"
-send disclaimer				# Voice cmds
-send disclaimer two			# Toggle shooting
-send explanation			# Carpal tunnel
-send keyboard explanation	# Preset explanations
-
+# Note: Cannot shorten cmds too much or it starts to misunderstand every command..
 # -------------------------
 # DIRECTORY: TW-talon\some_knausj_talon_code
 # Version: Unknown
 # -------------------------
 talon sleep 		# Is quick to respond. Can use
 talon wake			# to speak in VC w/o talon
-					# misunderstanding.
-dictation mode		# Switch Talon to recognize words
-					# as text instead of voice cmds.
-					# Does not work for R6S chat.
-					# (AKA "dictation mode")
-command mode		# Switch talon to "command mode".
-					
+					# misunderstanding.			
 # -------------------------
 # FILE: rainbow_movement.talon
-# Version: 0.1.0
+# Version: 0.2.0
 # -------------------------
 # Movement Voice Commands
-walk
-stop walk | stalk
+walk		
+stalk		# stop walk 
 	
 sprint
-stop sprint | stint
+stint		# stop sprint 
 	
-retreat
-stop retreat | streat
+retreat		# Retreat 
+streat 		# stop retreat
 
-go left | geft
-stop left | steft
+go left | left
+stop left	# stop left 
 	
-go right | gight
-stop right | stight
+go right | right
+stop right	# stop right
+
+			# periods of time to go right...
+go right one		# go right quick
+					# (alias could be gore one)
+go right two		# go right short
+go right three	# go right long
+
+			# periods of time to go left...
+go left one		# go left quick (gole one)
+go left two		# go left short
+go left three	# go left long
 
 # Positions (say them again to undo them)
 crouch 
 lay
-lean left | lean
-lean right | rean
+
+lean		# lean left
+rean		# lean right
 
 # Undo commands
-stop move | stop movement | stoove
-reset keys | reset
+# - Stop movement
+stop
+# - Stop everything
+reset
 
 # -------------------------
 # FILE: rainbow_actions.talon
-# Version: 0.0.1
+# Version: 0.0.2
 # -------------------------
 # Gun and Misc Changing
 primary
 secondary
 press F
 press G
+press X
 drone
 diffuse
 drop diffuser
 
 # Actions
 jump | climb
-climb in | climb up | stop climb | stimb
+climb in | climb up
 
 hold f | barricade # Holds for X sec.
 release f | stop f | stop barricade
 
 reload
 revive
-mid click | middle click | ability | lity
-knife | stab | dagger
+mid click | middle click | ability
+knife | stab
 
 # Intel Gathering
 view cameras | cameras
 yellow ping | ping
-scan # Scan for operators (aka red ping)
-stop scan | stan
+scan 	# Scan for operators (aka red ping)
 # -------------------------
 # FILE: rainbow_firing.talon
-# Version: 0.0.1
+# Version: 0.0.2 ?
 # -------------------------
 aim
-stop aim | staim
+staim		# stop aim
 
-# - Semi-Automatic Gun Firing (Sire/Si)
-fire | single fire | sire | si
-single fire two | sire two | si two
-single fire three | sire three | si three
-single fire four | sire four | si four
+# - Single-Fire Gun Firing (Sire/Si)
+sire | si
+sire two | si two
+sire three | si three
+sire four | si four
 
 # Fire an automatic gun for diff periods of time
-quick fire | quick
-short fire | short
-long fire | long
+fire | quick fire | quick 		# quick fire
+short fire | short		# short fire
+long fire | long		# long fire
 
 # -------------------------
 # FILE: rainbow_gui.talon
-# Version: 
+# Version: 0.0.2
 # -------------------------
 # Arrow Keys (for interacting with GUIs)
-arrow right | arright
-arrow left | arreft
-arrow up | arrup
-arrow down | ardown
+arrow right
+arrow left
+arrow up
+arrow down
 
 enter
-escape | esc | close
-
-# -------------------------
-# FILE: rainbow_op_procedures.talon
-# Version: 0.0.1
-# -------------------------
-place shield # (NEED TO TEST)
+escape

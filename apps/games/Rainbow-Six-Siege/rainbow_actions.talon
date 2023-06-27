@@ -1,6 +1,6 @@
 # File Name: rainbow_actions.talon
 # Game: Rainbow Six Siege
-# Version: 0.0.1
+# Version: 0.0.2
 # Author: Tom W.
 # Still need:
 # - (optional) to set R6S ability action keys from R/L mouse buttons to keyboard buttons (I.e. n & m) then set voice cmds for them like "abil 1" & "abil 2"
@@ -19,6 +19,7 @@ primary: key(1)
 secondary: key(2) 
 press F: key(f)
 press G: key(g)
+press X: key(x)
 drone: key(6)
 diffuse: key(x)
 drop diffuser: key(z)
@@ -26,32 +27,31 @@ drop diffuser: key(z)
 # Weapon and Ability Interactions
 reload: key(r)
 
-# NEED TO TEST. In Controls I set the middle click to work and '3' to be its alias. May make it more reliable.
-mid click | middle click | ability | lity:
+mid click | middle click | ability:
     #mouse_click(2)
 	key(3)
 	
-knife | stab | dagger: key(v)
+knife | stab: key(v)
 
 # Actions
 jump | climb in: key(space)
-climb | climb up | stop climb | stimb:
+climb | climb up:
 	key(space:down)
 	sleep(2s)
 	key(space:up)
 
-hold f | barricade | reinforce: 
+hold f | barricade: 
 	key(f:down)
 	sleep(5)
 	key(f:up)
+
+release f: key(f:up)
 
 # Rook armor revive
 revive: 
 	key(f:down)
 	sleep(7)
 	key(f:up)
-
-release f: key(f:up)
 
 # Intel Gathering
 view cameras | cameras: key(5)

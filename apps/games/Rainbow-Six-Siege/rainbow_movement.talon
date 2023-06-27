@@ -1,6 +1,6 @@
-# File Name: rainbow_six_siege.talon
+# File Name: rainbow_movement.talon
 # Game: Rainbow Six Siege
-# Version: 0.1.0
+# Version: 0.2.0
 # Author: Tom W.
 
 title: Rainbow Six
@@ -17,42 +17,102 @@ settings():
 
 # Movement Commands
 walk: key(w:down)
-stop walk | stalk: key(w:up)
+# stop walk:
+stalk: key(w:up)
 	
 sprint:
 	# Stop aiming if enabled
 	key(k:up)
 	key(shift:down w:down)
-stop sprint | stint:
+	
+# stop sprint
+stint:
 	key(shift:up)
 	key(w:up)
 	
 retreat: key(s:down)
-stop retreat | streat: key(s:up)
 
-go left | geft: key(a:down)
-stop left | steft: key(a:up)
+# stop retreat 
+streat: key(s:up)
+
+# -------------------
+# Directional movement
+# Not using aliases due to 
+# it misunderstanding as other cmds
+# -------------------
+# Go left
+go left | left: key(a:down)
+
+# stop left
+stop left: key(a:up)
 	
-go right | gight : key(d:down)
-stop right | stight: key(d:up)
+# Go right
+go right | right: key(d:down)
 
+# stop right
+stop right: key(d:up)
+
+# -----------------------
+# Go right / left for X
+# periods of time
+# -----------------------
+# right quick 
+go right one:
+	key(d:down)
+	sleep(300ms)
+	key(d:up)
+
+# right short
+go right two:
+	key(d:down)
+	sleep(500ms)
+	key(d:up)
+
+# right long
+go right three:
+	key(d:down)
+	sleep(1s)
+	key(d:up)
+
+# left quick 
+go left one:
+	key(a:down)
+	sleep(300ms)
+	key(a:up)
+
+# left short
+go left two:
+	key(a:down)
+	sleep(500ms)
+	key(a:up)
+
+# left long
+go left three:
+	key(a:down)
+	sleep(1s)
+	key(a:up)
+
+# ---------------------
 # Positions (say them again to undo them)
 crouch: key(c) 
 lay: key(ctrl) 
-lean left | lean: key(q)
-lean right | rean: key(e)
 
-# Stop all movement
-stop move | stop movement | stoove:
+# lean left
+lean: key(q)
+
+# lean right
+rean: key(e)
+
+# Stop movement
+stop:
 	key(w:up)
 	key(a:up)
 	key(s:up)
 	key(d:up)
 	key(shift:up)
-	key(q)
-	key(e)
 
-reset keys | reset:
+# Stop everything
+reset:
 	key(w:up)
 	key(a:up)
 	key(s:up)
