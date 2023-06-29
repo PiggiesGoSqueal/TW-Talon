@@ -9,10 +9,17 @@ ___
 	- Cons:
 		* 
 
+https://www.resna.org/
+	- Disability services
+	- There's an ATP certification for this among others
+
+https://kpronline.com/blog/your-guide-to-25-hands-free-mice/
+	- groups types of solutions & offers solutions
+
 ----------------------------
 Recommended to avoid eye control
 for full computer control. Instead,
-use head rotation for mouse cursor control if hands-free is needed.
+use head rotation or voice control for mouse cursor control if hands-free is needed.
 ----------------------------
 KinesicMouse LIVE
 	- Best I've found so far. Just need to figure out how to use another method than iPhone. See links below using MeFaMo on Github.
@@ -64,3 +71,9 @@ SmyleMouse (Not recommended, too basic & pricy)
 	- Cons:
 		* EXPENSIVE!
 		* Very basic features. Smile to click. That's literally it. Can double click but nothing more and no other facial expressions supported. 
+
+
+Others (not reviewed yet):
+Free software, reliant on hardware, basic mouse control: 
+https://xcessity.at/products_chronoclicker.php
+
