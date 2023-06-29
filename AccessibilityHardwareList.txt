@@ -1,0 +1,33 @@
+Template:
+___
+	- Purpose:
+	- Website: 
+	- Cost: 
+	- Pros:
+		* 
+	- Cons:
+		* 
+		
+
+Template:
+___
+	- Purpose: Hands-Free mouse control headware. 9 different methods of clicking. 
+	- Website: https://glassouse.com/
+	- Cost: $600+
+	- Pros:
+		* Supports Windows, iOS, Linux, Android, Chrome, Harmony OS, Smart TV
+	- Cons:
+		* Unknown yet
+		
+	
+QuadStick FPS
+	- Purpose: combines a mouth-actuated joystick with sip and puff switches, allowing users to play complex games on modern systems like Switch, Xbox One, and PS4. Several models and specialized mounting arms are available.
+	- Website: https://www.quadstick.com/shop/quadstick-fps-game-controller
+	- Cost: ~$549
+	- Pros:
+		* Hands free?
+	- Cons:
+		* Unknown yet
+
+
+https://us.tobiidynavox.com/products/origin-headmouse-nano

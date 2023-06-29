@@ -1,6 +1,15 @@
 # File Name: R6S-List-of-Cmds
 # Author: Tom W.
 # Note: Cannot shorten cmds too much or it starts to misunderstand every command..
+
+ADD THESE:
+- walk and right | alias
+- walk and left 
+- back and right
+- back and left
+
+
+NOTE: the more cmds i add the longer it may take to load cmds! Delete the unused chat cmds & DELETE UNUSED ALIASES and special op cmds! And any others!!
 # -------------------------
 # DIRECTORY: TW-talon\some_knausj_talon_code
 # Version: Unknown

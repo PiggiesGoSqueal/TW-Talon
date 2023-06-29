@@ -1,0 +1,66 @@
+Template:
+___
+	- Purpose:
+	- Website: 
+	- Cost: 
+	- Hardware required: 
+	- Pros:
+		* 
+	- Cons:
+		* 
+
+----------------------------
+Recommended to avoid eye control
+for full computer control. Instead,
+use head rotation for mouse cursor control if hands-free is needed.
+----------------------------
+KinesicMouse LIVE
+	- Best I've found so far. Just need to figure out how to use another method than iPhone. See links below using MeFaMo on Github.
+	- Purpose: Control keyboard and mouse with facial expressions. Also allows you to move mouse over screen using head movements.
+	- Website: https://kinesicmouse.xcessity.at/buy/
+	- Cost: ~$100 (14 day free trial)
+	- Hardware required: iPhone X+ with Face recog
+	- Possible alternative to iPhone:
+		* https://github.com/JimWest/MeFaMo
+		* see for instructions: https://forums.xcessity.at/viewtopic.php?p=10671&sid=c89783ca45a06b24af67d261f8084c32#p10671
+	- Pros:
+		* Responds QUICKLY.
+		* Pretty/very accurate
+		* 
+	- Cons:
+		* Relies on iPhone camera with face detection. And this causes the iPhone to overheat after a short period of time. 
+		* Also would harm battery over time. 
+		* have to place iPhone in a raised place where it can easily see whole face.
+
+
+Enable Viacam (FREE but have not tried yet)
+	- Purpose: Hands-Free mouse control (probably basic). Supports Win 7, 8, 10. Idk about 11.
+	- Website: https://eviacam.crea-si.com/index.php
+	- Cost: 
+	- Hardware required: A good quality camera 
+	- Pros:
+		* 
+	- Cons:
+		* 
+
+
+Iris (NOT RECOMMENDED)
+	- Purpose: Move mouse by moving head. Basic click with mouse feature by hovering over buttons for X time. Can add basic interact buttons you hover over to click diff keybinds. Is basically a more limited version of the KinesicMouse LIVE software (same dev) but cheaper.  
+	- Website: https://iris.xcessity.at/index.php#about
+	- Cost: 
+	- Hardware required: Tobi(?) EyeTracker X(?)
+	- Pros:
+		* 
+	- Cons:
+		* Very basic, costs $, not as good as KinesicMouse. 
+
+SmyleMouse (Not recommended, too basic & pricy)
+	- Purpose: Smile to click. That's it. Super basic. 
+	- Website: https://smylemouse.com/
+	- Cost: $500 for lifetime usage (or $30/month)
+	- Hardware required: A standard camera 
+	- Pros:
+		* Only requires a camera 
+	- Cons:
+		* EXPENSIVE!
+		* Very basic features. Smile to click. That's literally it. Can double click but nothing more and no other facial expressions supported. 
