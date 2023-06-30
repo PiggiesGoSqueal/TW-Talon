@@ -1,6 +1,6 @@
 # File Name: rainbow_movement.talon
 # Game: Rainbow Six Siege
-# Version: 0.2.0
+# Version: 0.3.0
 # Author: Tom W.
 
 title: Rainbow Six
@@ -34,6 +34,16 @@ retreat: key(s:down)
 
 # stop retreat 
 streat: key(s:up)
+
+# Alternatives
+# stop these using "stop"
+walk and right:
+	key(w:down)
+	key(a:down)
+
+walk and left: 
+	key(w:down)
+	key(d:down)
 
 # -------------------
 # Directional movement

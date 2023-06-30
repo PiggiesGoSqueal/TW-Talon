@@ -2,9 +2,7 @@
 # Author: Tom W.
 # Note: Cannot shorten cmds too much or it starts to misunderstand every command..
 
-ADD THESE:
-- walk and right | alias
-- walk and left 
+ADD THESE?
 - back and right
 - back and left
 
@@ -19,7 +17,7 @@ talon wake			# to speak in VC w/o talon
 					# misunderstanding.			
 # -------------------------
 # FILE: rainbow_movement.talon
-# Version: 0.2.0
+# Version: 0.3.0
 # -------------------------
 # Movement Voice Commands
 walk		
