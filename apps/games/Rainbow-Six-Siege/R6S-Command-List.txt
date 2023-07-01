@@ -7,6 +7,8 @@ ADD THESE?
 - back and left
 
 
+I think it got slower to load Talon with multiple R6S files. Try having it all in 1 file?
+
 NOTE: the more cmds i add the longer it may take to load cmds! Delete the unused chat cmds & DELETE UNUSED ALIASES and special op cmds! And any others!!
 # -------------------------
 # DIRECTORY: TW-talon\some_knausj_talon_code
