@@ -8,6 +8,11 @@ ___
 		* 
 	- Cons:
 		* 
+		
+Conclusions:
+	- (Head/Eye/Face tracking software) Facial recognition software using 3D cameras (I.e. KinesicMouse LIVE)... As for face recognition using 2D cameras.. It is prob worse but idk. The 2 software I've found were not sufficient (AITrack/OpenTrack and MeFaMo+KinesicMouse instead of iPhone+KinesicMouse)
+		* may be decent for individuals that want to connect certain keys / mouse clicks to facial expressions. However, it's not great at moving your mouse PRECISELY for small buttons on your screen and requires lots of practice. Even when your head is still it may still move your mouse some. 
+		* Head tracking software should not be used for FPS games. Moves your POV too much and is disorienting/hard to aim. May be okay for someone that practices a lot with it but eh.. If you have a choice do not use it.
 
 https://www.resna.org/
 	- Disability services
@@ -27,17 +32,17 @@ KinesicMouse LIVE
 	- Website: https://kinesicmouse.xcessity.at/buy/
 	- Cost: ~$100 (14 day free trial)
 	- Hardware required: iPhone X+ with Face recog
-	- Possible alternative to iPhone:
-		* https://github.com/JimWest/MeFaMo
+	- For someone who truly cannot use a mouse/keyboard it may be helpful. Though it is difficult to replace the mouse with this software and have it be precise. Also I learned head movement instead of a mouse is.. basically just a major pain in FPS games. Moves screen too much. Disorienting. Hard to aim. Does not always recognize facial expressions. 
 		* see for instructions: https://forums.xcessity.at/viewtopic.php?p=10671&sid=c89783ca45a06b24af67d261f8084c32#p10671
 	- Pros:
-		* Responds QUICKLY.
-		* Pretty/very accurate
+		* Responds pretty QUICKLY.
 		* 
 	- Cons:
-		* Relies on iPhone camera with face detection. And this causes the iPhone to overheat after a short period of time. 
-		* Also would harm battery over time. 
-		* have to place iPhone in a raised place where it can easily see whole face.
+		* Must use 30 FPS on iPhone or it'll cause it to overheat. But that's okay to use 30 FPS. If you want 60 FPS buy an iPhone heatsink.
+		* Even at the lowest setting, head movements will move your character's POV too quickly and make it very difficult to aim or do anything. Is disorienting. You could change it to move POV only when doing diff facial expressions perhaps- but you'd still run into all the other problems.
+		* Even when your head is 100% still it will still move the player's POV. 
+		* Also would harm battery over time. Though dev claims you can leave it plugged in and new phones will use charge from charger instead of battery. 
+		* have to place iPhone in a raised place where it can easily see whole face. Use a phone stand.
 
 
 Enable Viacam (FREE but have not tried yet)
