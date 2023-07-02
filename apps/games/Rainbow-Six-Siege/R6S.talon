@@ -4,7 +4,10 @@
 
 # File Name: R6S.talon
 # Game: Rainbow Six Siege
-# Version: 1.0.0
+# Version: 1.0.1
+# 	- Changes:
+# 		* Reduced 3 syllable cmds and aliases. Will see if 1-2 syllables keeps processing times quicker.
+# 		* Note: Cannot shorten fire cmds too much b/c already confirmed it = false positives.
 # Author: Tom W.
 
 title: Rainbow Six
@@ -23,6 +26,7 @@ walk: key(w:down)
 # stop walk:
 stalk: key(w:up)
 	
+
 sprint:
 	# Stop aiming if enabled
 	key(k:up)
@@ -35,18 +39,17 @@ stint:
 	
 retreat: key(s:down)
 
-# stop retreat 
-streat: key(s:up)
+# to stop retreat just say "stop" which will stop all movement
 
-# Alternatives
+# Alternatives (it should recognize the separate cmds if u just say "walk right")
 # stop these using "stop"
-walk and right:
-	key(w:down)
-	key(a:down)
+#walk right:
+#	key(w:down)
+#	key(a:down)
 
-walk and left: 
-	key(w:down)
-	key(d:down)
+#walk left: 
+#	key(w:down)
+#	key(d:down)
 
 # -------------------
 # Directional movement
@@ -70,37 +73,37 @@ stop right: key(d:up)
 # periods of time
 # -----------------------
 # right quick 
-go right one:
+right one:
 	key(d:down)
 	sleep(300ms)
 	key(d:up)
 
 # right short
-go right two:
+right two:
 	key(d:down)
 	sleep(500ms)
 	key(d:up)
 
 # right long
-go right three:
+right three:
 	key(d:down)
 	sleep(1s)
 	key(d:up)
 
 # left quick 
-go left one:
+left one:
 	key(a:down)
 	sleep(300ms)
 	key(a:up)
 
 # left short
-go left two:
+left two:
 	key(a:down)
 	sleep(500ms)
 	key(a:up)
 
 # left long
-go left three:
+left three:
 	key(a:down)
 	sleep(1s)
 	key(a:up)
@@ -115,6 +118,12 @@ lean: key(q)
 
 # lean right
 rean: key(e)
+
+# quick ladder descent. UNTESTED
+ladder:
+	key(shift:down)
+	sleep(1s)
+	key(shift:up)
 
 # Stop movement
 stop:
@@ -160,8 +169,10 @@ reset:
 # 		* But for now fine with manual clicking.
 
 # Gun and Misc Changing
-primary: key(1)
-secondary: key(2) 
+# primary weapon
+first: key(1)
+# secondary weapon
+second: key(2) 
 press F: key(f)
 press G: key(g)
 press X: key(x)
@@ -173,11 +184,12 @@ drop diffuser: key(z)
 # Weapon and Ability Interactions
 reload: key(r)
 
-mid click | middle click | ability:
+# Middle click, special ability
+ability:
     #mouse_click(2)
 	key(3)
 	
-knife | stab: key(v)
+knife: key(v)
 
 # Actions
 jump: key(space)
@@ -194,7 +206,8 @@ climb | climb up | climb in:
 	sleep(2s)
 	key(space:up)
 
-hold f | barricade: 
+# barricade
+hold ef | barricade: 
 	key(f:down)
 	sleep(5)
 	key(f:up)
@@ -208,8 +221,12 @@ revive:
 	key(f:up)
 
 # Intel Gathering
-view cameras | cameras: key(5)
-yellow ping | ping: key(z)
+cameras: key(5)
+
+# yellow ping
+ping: key(z)
+
+# red ping
 scan: 
 	key(x:down)
 	sleep(2s)

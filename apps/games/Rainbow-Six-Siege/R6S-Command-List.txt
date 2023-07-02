@@ -2,11 +2,6 @@
 # Author: Tom W.
 # Note: Cannot shorten cmds too much or it starts to misunderstand every command..
 
-ADD THESE?
-- back and right
-- back and left
-
-
 I think it got slower to load Talon with multiple R6S files. Try having it all in 1 file?
 
 NOTE: the more cmds i add the longer it may take to load cmds! Delete the unused chat cmds & DELETE UNUSED ALIASES and special op cmds! And any others!!
@@ -18,18 +13,19 @@ talon sleep 		# Is quick to respond. Can use
 talon wake			# to speak in VC w/o talon
 					# misunderstanding.			
 # -------------------------
-# FILE: rainbow_movement.talon
-# Version: 0.3.0
+# FILE: R6S.talon
+# Version: 1.0.1
+# CATEGORY: movement
 # -------------------------
 # Movement Voice Commands
 walk		
 stalk		# stop walk 
-	
+
+# to stop sprinting say "sprint" again.
 sprint
 stint		# stop sprint 
 	
-retreat		# Retreat 
-streat 		# stop retreat
+retreat		# Retreat (to stop say stop)
 
 go left | left
 stop left	# stop left 
@@ -37,16 +33,16 @@ stop left	# stop left
 go right | right
 stop right	# stop right
 
-			# periods of time to go right...
-go right one		# go right quick
-					# (alias could be gore one)
-go right two		# go right short
-go right three	# go right long
+# periods of time to go right...
+right one		# go right quick
+				# (alias could be gore one for go right one)
+right two		# go right short
+right three	# go right long
 
-			# periods of time to go left...
-go left one		# go left quick (gole one)
-go left two		# go left short
-go left three	# go left long
+# periods of time to go left...
+left one		# go left quick (gole one)
+left two		# go left short
+left three	# go left long
 
 # Positions (say them again to undo them)
 crouch 
@@ -62,12 +58,11 @@ stop
 reset
 
 # -------------------------
-# FILE: rainbow_actions.talon
-# Version: 0.0.2
+# CATEGORY: rainbow_actions
 # -------------------------
 # Gun and Misc Changing
-primary
-secondary
+first
+second
 press F
 press G
 press X
@@ -79,21 +74,20 @@ drop diffuser
 jump | climb
 climb in | climb up
 
-hold f | barricade # Holds for X sec.
-release f | stop f | stop barricade
+hold ef | barricade # Holds for X sec.
+release ef
 
 reload
 revive
-mid click | middle click | ability
-knife | stab
+ability # Middle click
+knife
 
 # Intel Gathering
-view cameras | cameras
-yellow ping | ping
+cameras
+ping	# yellow ping
 scan 	# Scan for operators (aka red ping)
 # -------------------------
-# FILE: rainbow_firing.talon
-# Version: 0.0.2 ?
+# CATEGORY: rainbow_firing
 # -------------------------
 aim
 staim		# stop aim
@@ -110,8 +104,7 @@ short fire | short		# short fire
 long fire | long		# long fire
 
 # -------------------------
-# FILE: rainbow_gui.talon
-# Version: 0.0.2
+# CATEGORY: rainbow_gui
 # -------------------------
 # Arrow Keys (for interacting with GUIs)
 arrow right
@@ -121,3 +114,6 @@ arrow down
 
 enter
 escape
+hold tab
+release tab
+press tab
