@@ -35,7 +35,8 @@ Requirements for Rainbow Six Siege Controls:
  - special ability controls:
 	* primary gadget (normally middle click) should be set to middle click & 3 keybind.
 	* secondary gadget (normally 3 & G) should be set to 4 & G.  
-	* Used in rainbow_op_procedures.talon for example.
  - observation tool controls section:
 	* shoot: N 
 	* primary action: M
+
+Talon voice commands using words do have a delay. This requires practice, patience, and strategy to get kills (I.e. approaching from a direction the opponent does not expect). After 8 hours of playtime I decided I'll probably just keep playing with hands and use this as a crutch- to reduce my load on my hands but allow me to actually play using my hands in critical moments.
