@@ -16,6 +16,12 @@ https://www.resna.org/
 https://kpronline.com/blog/your-guide-to-25-hands-free-mice/
 	- groups types of solutions & offers solutions
 
+
+https://github.com/isayed037/Hand-Detection-Tracking-For-Complete-Mouse-Control
+	- free
+	- Control mouse with hands but using a camera and hand-tracking instead of a mouse. Might be easier than head tracking / facial expressions for precision? Would need to test. Though holding hands up 24/7 may get tiring and reduce circulation so that'd be bad for hands.
+	- Last updated 3 years ago though and not popular. But done in Python.
+
 ----------------------------
 Recommended to avoid eye control
 for full computer control. Instead,
