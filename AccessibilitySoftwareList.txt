@@ -53,13 +53,17 @@ KinesicMouse LIVE
 
 Enable Viacam (FREE but have not tried yet)
 	- Purpose: Hands-Free mouse control (probably basic). Supports Win 7, 8, 10. Idk about 11.
-	- Website: https://eviacam.crea-si.com/index.php
-	- Cost: 
+	- Website: 
+		* Official site: https://eviacam.crea-si.com/
+		* Source code: https://github.com/cmauri/eviacam
+	- Cost: Free
 	- Hardware required: A good quality camera 
 	- Pros:
-		* 
+		* Works pretty well.
+		* Configure whether mouse clicks when staying on something for a period of time or disable click function and use alternative methods like foot mouse pedals or pop/hiss from Talon Voice to click. 
 	- Cons:
-		* 
+		* Head tracking might get exhausting for head/neck for those not used to it but can also move body instead. 
+		* Best when used with a mouse to occassionally reposition the mouse in the center. However, you could use Talon Voice and just set it to move the mouse to the center of the screen instead. B/c sometimes it will have the center of your screen = your head in a weird spot. So you need to recallibrate (you can do so via the software but easier/quicker to just use your mouse to recenter it) 
 
 
 Iris (NOT RECOMMENDED)
