@@ -1,0 +1,21 @@
+=============================
+WEEKEND GOAL:
+	1. Figure out a solution to replace mouse for PC usage at work and home (for non-gaming).
+		- Order a Tobi 5 after confirming free returns. Then use with Talon Voice to pop once for zoom and pop twice for click. Figure out how to double click etc.
+		- Research Windows 11 accessibility features.
+	
+	2. Figure out how to replace keyboard in R6S using Parrot.py for sound effects. Sound effects are much quicker than voice recognition scripts.
+		- Read THIS FIRST: 
+			* https://github.com/ziemus/knausj_talon/blob/main/core/modes/game_mode/README.md
+			
+		- https://github.com/chaosparrot/parrot.py
+	
+	3. Figure out how to replace mouse in R6S using Tobi 5 if I can get it to work with head or eye tracking (try both). Though I do not have high hopes for this.
+		- quadstick would be a pain but may be most effective. Could cause neck pain tho
+
+	
+According to Talon's Slack (1 person) it is best to NOT use Dragon with Talon unless it is really needed. Conformer AI works well. 
+=============================
+
+Figure out if reducing R6S cmds listed improves reaction time of Talon (backup first)
+
