@@ -1,0 +1,13 @@
+If your left hand is used for moving and your right hand is used for your keyboard then have the following settings:
+	 - Set R6S to default controls
+	 - shoot to be J keybind
+	 - aim to be K keybind
+	 - special ability controls:
+		* primary gadget (normally middle click) should be set to middle click & 3 keybind.
+		* secondary gadget (normally 3 & G) should be set to 4 & G.  
+	 - observation tool controls section:
+		* shoot: N 
+		* primary action: M
+	- Read rainbow_#_README.txt for additional settings (will move here eventually)
+
+Alternatively, if your left hand is used for the mouse and your right hand is used for your keyboard then have the same settings as above then set the second set of keys (in the 2nd column under controls) to go to your normal right-handed keys. These will be what you use to move around and the voice commands will use the normal keys (I.e. w.a.s.d. to move)

@@ -1,0 +1,57 @@
+# File Name: R6S-Short-Command-List.txt
+# Author: Tom W.
+# Note: Cannot shorten cmds too much or it starts to misunderstand every command..
+
+# -------------------------
+# DIRECTORY: TW-talon\some_knausj_talon_code
+# Version: Unknown
+# -------------------------
+talon sleep 		# Is quick to respond. Can use
+talon wake			# to speak in VC w/o talon
+					# misunderstanding.			
+# -------------------------
+# FILE: R6S-Short.talon
+# CATEGORY: movement
+# -------------------------
+# Movement Voice Commands
+walk		
+stalk		# stop walk 
+
+# to stop sprinting say "sprint" again.
+sprint
+stint		# stop sprint 
+
+# Undo commands
+# - Stop movement
+stop
+# - Stop everything
+reset
+
+# -------------------------
+# CATEGORY: rainbow_actions
+# -------------------------
+barricade | reinforce # Holds for X sec.
+jump
+ping
+scan # red ping
+# -------------------------
+# CATEGORY: rainbow_firing
+# -------------------------
+aim
+staim		# stop aim
+
+# - Single-Fire Gun Firing (Sire/Si)
+si
+si two
+si three
+si four
+
+# Fire an automatic gun for diff periods of time
+fire | quick fire | quick 		# quick fire
+short fire | short		# short fire
+long fire | long		# long fire
+
+# -------------------------
+# CATEGORY: rainbow_gui
+# -------------------------
+enter

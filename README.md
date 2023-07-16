@@ -21,7 +21,7 @@ Steps:
 
 4. In your web browser download this Github project. Unzip it and store the TW-Talon folder inside the Talon\User folder path in File Explorer.
 
-5. Confirm this file path exists: "    TW-Talon/apps/games/Rainbow-Six-Siege" with several .talon files in it.
+5. Confirm this file path exists: "    TW-Talon/apps/games/Rainbow-Six-Siege" with .talon files in it.
 
 6. Go to your tray at the bottom right of your screen, right click the Talon icon, click "Quit Talon".
 
@@ -30,13 +30,8 @@ Steps:
 8. In File Explorer go to the folder path where "TW-Talon/apps/games/Rainbow-Six-Siege" exists. Then view "R6S-Command-List.txt" for a list of voice commands (& their aliases) that exist once Rainbow Six Siege is open. Note this does not work on R6S Vulkan unless you change the title name in each of the files.
 
 Requirements for Rainbow Six Siege Controls:
- - shoot to be J keybind
- - aim to be K keybind
- - special ability controls:
-	* primary gadget (normally middle click) should be set to middle click & 3 keybind.
-	* secondary gadget (normally 3 & G) should be set to 4 & G.  
- - observation tool controls section:
-	* shoot: N 
-	* primary action: M
+See `apps/games/Rainbow-Six-Siege/required_keybinds.txt`
 
 Talon voice commands using words do have a delay. This requires practice, patience, and strategy to get kills (I.e. approaching from a direction the opponent does not expect). After 8 hours of playtime I decided I'll probably just keep playing with hands and use this as a crutch- to reduce my load on my hands but allow me to actually play using my hands in critical moments.
+	- More cmds = more delay. Thus versions from before about July/13/2023 of my source code contain more cmds and newer versions contain less to be more responsive. 
+	- Recommended to use parrot.py instead of talon voice recognition commands. Parrot.py is supposed to be much quicker.
