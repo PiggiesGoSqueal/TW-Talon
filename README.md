@@ -19,7 +19,8 @@ Steps:
 	b. Under the "Scripting" section click "Open ~\Talon", which will open a folder in File Explorer.
 	c. In the File Explorer window open the "user" folder.
 
-4. In your web browser download this Github project. Unzip it and store the TW-Talon folder inside the Talon\User folder path in File Explorer.
+4. In your web browser go to the Releases page for this project and download your preferred version depending on your needs. Then unzip it and store the TW-Talon folder inside the Talon\User folder path in File Explorer.
+	- https://github.com/PiggiesGoSqueal/TW-Talon/releases
 
 5. Confirm this file path exists: "    TW-Talon/apps/games/Rainbow-Six-Siege" with .talon files in it.
 
