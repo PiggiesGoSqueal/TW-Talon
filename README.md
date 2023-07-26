@@ -7,6 +7,9 @@ How to play Rainbow Six Siege Using Voice Cmds and a Mouse to look around
 
 Note these steps are for Windows users. Idk if it works on Mac.
 
+For mouse clicks see:
+TW-community\plugin\mouse\mouse.talon
+
 Steps:
 1. Download & install Talon Voice software ( https://talonvoice.com/ )
 2. Start talon voice software. 
