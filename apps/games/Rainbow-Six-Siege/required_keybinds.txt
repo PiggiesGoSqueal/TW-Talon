@@ -6,7 +6,7 @@ If your left hand is used for moving and your right hand is used for your keyboa
 		* primary gadget (normally middle click) should be set to middle click & 3 keybind.
 		* secondary gadget (normally 3 & G) should be set to 4 & G.  
 	 - observation tool controls section:
-		* shoot: N 
+		* shoot: N
 		* primary action: M
 	- Read rainbow_#_README.txt for additional settings (will move here eventually)
 
