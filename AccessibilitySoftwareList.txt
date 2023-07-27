@@ -73,8 +73,8 @@ KinesicMouse LIVE
 		* have to place iPhone in a raised place where it can easily see whole face. Use a phone stand.
 
 
-Enable Viacam (FREE but have not tried yet)
-	- Purpose: Hands-Free mouse control (probably basic). Supports Win 7, 8, 10. Idk about 11.
+Enable Viacam (TRY TO USE ALONGSIDE TALON HISS/POP click noises. If possible maybe allow pop #1 to zoom in for more precise clicking and pop #2 to click it. There is MacOS support for this but idk if there is a Windows one made yet. Alternatively use Tobi Eye Tracker + Talon Voice)
+	- Purpose: Hands-Free mouse control. Supports Win 7, 8, 10. Idk about 11.
 	- Website: 
 		* Official site: https://eviacam.crea-si.com/
 		* Source code: https://github.com/cmauri/eviacam
