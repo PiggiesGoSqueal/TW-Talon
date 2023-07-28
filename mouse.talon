@@ -7,15 +7,19 @@
 # In Talon File:
 # CONFIRM IN TALON:
 # - eye tracking is enabled with control mouse and zoom enabled.
-# - If it works then make non-conflicting unique aliases for zoom and click. (zee ; see ? OR clay ; day) 
-zoom click:
+# - If it works then make non-conflicting unique aliases for zoom and click. (zee ; see ? OR clay ; bay) 
+zoom | clay:
 	#tracking.control_zoom_enabled(true)
 	# Trigger Eye Zoom / Click:
 	tracking.zoom()
 
-click test:
-	mouse_key(0)
-	#tracking.control_zoom_enabled(false)
-	# Cancel Eye Zoom:
+zoom cancel | click:
+    mouse_click(0)
+    # close the mouse grid if open
+    user.grid_close()
+    # End any open drags
+    # Touch automatically ends left drags so this is for   right drags specifically
+    user.mouse_drag_end() 
 	tracking.zoom_cancel()
+	#tracking.control_zoom_enabled(false)
 
